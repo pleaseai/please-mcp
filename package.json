@@ -1,7 +1,7 @@
 {
   "name": "@pleaseai/mcp",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "packageManager": "bun@1.3.0",
   "description": "MCP Wrapper - Proxy MCP server for filtering and customizing upstream MCP server tools",
   "author": "Minsu Lee <amondnet>",

@@ -47,7 +47,7 @@ bun run build
       "env": {
         "UPSTREAM_URL": "https://mcp.asana.com/sse",
         "AUTH_MODE": "oauth",
-        "ALLOWED_TOOLS": "get_tasks,create_task,update_task",
+        "ALLOWED_TOOLS": "asana_get_task,asana_get_tasks,asana_create_task,asana_update_task,asana_search_tasks",
         "DEBUG": "true"
       }
     }

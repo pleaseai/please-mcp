@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "asana": {
+      "command": "node",
+      "args": ["/home/coder/IdeaProjects/please-mcp/dist/index.js"],
+      "env": {
+        "UPSTREAM_URL": "https://mcp.asana.com/sse",
+        "AUTH_MODE": "oauth",
+        "ALLOWED_TOOLS": "asana_get_task,asana_get_tasks,asana_create_task,asana_update_task,asana_search_tasks",
+        "DEBUG": "true"
+      }
+    },
+    "github2": {
+      "command": "node",
+      "args": ["/home/coder/IdeaProjects/please-mcp/dist/index.js"],
+      "env": {
+        "UPSTREAM_URL": "https://api.githubcopilot.com/mcp/",
+        "AUTH_MODE": "oauth",
+        "OAUTH_CALLBACK_PORT": "3335",
+        "DEBUG": "true"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "external/mcp-remote"]
+	path = external/mcp-remote
+	url = https://github.com/geelen/mcp-remote
